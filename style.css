@@ -110,3 +110,31 @@ body {
     right: -100px;
     top: -100px;
 }
+
+@media only all and (max-width: 992px) {
+    .container {
+        padding: 0 36px;
+    }
+    
+    .hero__container {
+        flex-direction: column-reverse;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .hero-info {
+        text-align: center;
+    }
+
+    .hero-info__heading {
+        margin-right: 0;
+    }
+
+    .hero-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+   
+
+}
