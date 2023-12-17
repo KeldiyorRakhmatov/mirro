@@ -47,6 +47,7 @@ body {
 }
 
 .hero-info {
+    max-width: 100%;
     width: 552px;
 }
 
